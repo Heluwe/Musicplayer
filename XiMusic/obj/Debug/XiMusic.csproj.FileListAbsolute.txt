@@ -1,0 +1,61 @@
+d:\我的资料库\documents\visual studio 14\Projects\XiMusic\XiMusic\bin\Debug\XiMusic.exe.config
+d:\我的资料库\documents\visual studio 14\Projects\XiMusic\XiMusic\obj\Debug\Interop.WMPLib.dll
+d:\我的资料库\documents\visual studio 14\Projects\XiMusic\XiMusic\obj\Debug\AxInterop.WMPLib.dll
+d:\我的资料库\documents\visual studio 14\Projects\XiMusic\XiMusic\obj\Debug\XiMusic.csproj.ResolveComReference.cache
+d:\我的资料库\documents\visual studio 14\Projects\XiMusic\XiMusic\obj\Debug\XiMusic.csprojResolveAssemblyReference.cache
+d:\我的资料库\documents\visual studio 14\Projects\XiMusic\XiMusic\obj\Debug\XiMusic.ctlMusicList.resources
+d:\我的资料库\documents\visual studio 14\Projects\XiMusic\XiMusic\obj\Debug\XiMusic.frmXiMusic.resources
+d:\我的资料库\documents\visual studio 14\Projects\XiMusic\XiMusic\obj\Debug\XiMusic.Properties.Resources.resources
+d:\我的资料库\documents\visual studio 14\Projects\XiMusic\XiMusic\obj\Debug\XiMusic.csproj.GenerateResource.Cache
+D:\我的资料库\Documents\Visual Studio 14\Projects\XiMusic\XiMusic\bin\Debug\XiMusic.exe
+D:\我的资料库\Documents\Visual Studio 14\Projects\XiMusic\XiMusic\bin\Debug\XiMusic.pdb
+D:\我的资料库\Documents\Visual Studio 14\Projects\XiMusic\XiMusic\bin\Debug\Newtonsoft.Json.dll
+D:\我的资料库\Documents\Visual Studio 14\Projects\XiMusic\XiMusic\bin\Debug\Interop.WMPLib.dll
+D:\我的资料库\Documents\Visual Studio 14\Projects\XiMusic\XiMusic\bin\Debug\AxInterop.WMPLib.dll
+D:\我的资料库\Documents\Visual Studio 14\Projects\XiMusic\XiMusic\obj\Debug\XiMusic.exe
+D:\我的资料库\Documents\Visual Studio 14\Projects\XiMusic\XiMusic\obj\Debug\XiMusic.pdb
+D:\我的资料库\Documents\Visual Studio 14\Projects\XiMusic\XiMusic\obj\Debug\XiMusic.frmSearchLyrics.resources
+D:\我的资料库\Documents\Visual Studio 14\Projects\XiMusic\XiMusic\obj\Debug\XiMusic.frmSearchMusic.resources
+D:\我的资料库\Documents\Visual Studio 14\Projects\XiMusic\XiMusic\obj\Debug\XiMusic.ctlSearchBox.resources
+D:\我的资料库\Documents\Visual Studio 14\Projects\XiMusic\XiMusic\obj\Debug\XiMusic.frmDesktopLyrics.resources
+D:\我的资料库\Documents\Visual Studio 14\Projects\XiMusic\XiMusic\obj\Debug\XiMusic.frmShowLyrics.resources
+I:\XiMusic\XiMusic\bin\Debug\XiMusic.exe.config
+I:\XiMusic\XiMusic\obj\Debug\Interop.WMPLib.dll
+I:\XiMusic\XiMusic\obj\Debug\AxInterop.WMPLib.dll
+I:\XiMusic\XiMusic\obj\Debug\XiMusic.csproj.ResolveComReference.cache
+I:\XiMusic\XiMusic\obj\Debug\XiMusic.exe
+I:\XiMusic\XiMusic\obj\Debug\XiMusic.pdb
+I:\XiMusic\XiMusic\bin\Debug\XiMusic.exe
+I:\XiMusic\XiMusic\bin\Debug\XiMusic.pdb
+I:\XiMusic\XiMusic\bin\Debug\Newtonsoft.Json.dll
+I:\XiMusic\XiMusic\bin\Debug\Interop.WMPLib.dll
+I:\XiMusic\XiMusic\bin\Debug\AxInterop.WMPLib.dll
+I:\XiMusic\XiMusic\obj\Debug\XiMusic.csprojResolveAssemblyReference.cache
+I:\XiMusic\XiMusic\obj\Debug\XiMusic.ctlMusicList.resources
+I:\XiMusic\XiMusic\obj\Debug\XiMusic.ctlSearchBox.resources
+I:\XiMusic\XiMusic\obj\Debug\XiMusic.frmDesktopLyrics.resources
+I:\XiMusic\XiMusic\obj\Debug\XiMusic.frmSearchLyrics.resources
+I:\XiMusic\XiMusic\obj\Debug\XiMusic.frmSearchMusic.resources
+I:\XiMusic\XiMusic\obj\Debug\XiMusic.frmXiMusic.resources
+I:\XiMusic\XiMusic\obj\Debug\XiMusic.Properties.Resources.resources
+I:\XiMusic\XiMusic\obj\Debug\XiMusic.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\XiMusic\XiMusic\bin\Debug\XiMusic.exe.config
+C:\Users\Administrator\Desktop\XiMusic\XiMusic\obj\Debug\Interop.WMPLib.dll
+C:\Users\Administrator\Desktop\XiMusic\XiMusic\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Administrator\Desktop\XiMusic\XiMusic\obj\Debug\XiMusic.csproj.ResolveComReference.cache
+C:\Users\Administrator\Desktop\XiMusic\XiMusic\obj\Debug\XiMusic.exe
+C:\Users\Administrator\Desktop\XiMusic\XiMusic\obj\Debug\XiMusic.pdb
+C:\Users\Administrator\Desktop\XiMusic\XiMusic\bin\Debug\XiMusic.exe
+C:\Users\Administrator\Desktop\XiMusic\XiMusic\bin\Debug\XiMusic.pdb
+C:\Users\Administrator\Desktop\XiMusic\XiMusic\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\XiMusic\XiMusic\bin\Debug\Interop.WMPLib.dll
+C:\Users\Administrator\Desktop\XiMusic\XiMusic\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Administrator\Desktop\XiMusic\XiMusic\obj\Debug\XiMusic.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\XiMusic\XiMusic\obj\Debug\XiMusic.ctlMusicList.resources
+C:\Users\Administrator\Desktop\XiMusic\XiMusic\obj\Debug\XiMusic.ctlSearchBox.resources
+C:\Users\Administrator\Desktop\XiMusic\XiMusic\obj\Debug\XiMusic.frmDesktopLyrics.resources
+C:\Users\Administrator\Desktop\XiMusic\XiMusic\obj\Debug\XiMusic.frmSearchLyrics.resources
+C:\Users\Administrator\Desktop\XiMusic\XiMusic\obj\Debug\XiMusic.frmSearchMusic.resources
+C:\Users\Administrator\Desktop\XiMusic\XiMusic\obj\Debug\XiMusic.frmXiMusic.resources
+C:\Users\Administrator\Desktop\XiMusic\XiMusic\obj\Debug\XiMusic.Properties.Resources.resources
+C:\Users\Administrator\Desktop\XiMusic\XiMusic\obj\Debug\XiMusic.csproj.GenerateResource.Cache

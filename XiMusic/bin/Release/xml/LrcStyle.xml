@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<lrclist>
+	<color id="0" name="自然绿">
+		<before colorUp="#fad163" colorDown="#004e27"></before>
+		<alfter colorUp="#ff0800" colorDown="#ffa347"></alfter>
+	</color>
+	<color id="1" name="浪漫紫">
+		<before colorUp="#ce8bf6" colorDown="#4f1279"></before>
+		<alfter colorUp="#9c0151" colorDown="#f9a1ce"></alfter>
+	</color>
+	<color id="2" name="海洋蓝">
+		<before colorUp="#a6d3fc" colorDown="#0564a0"></before>
+		<alfter colorUp="#b10303" colorDown="#f79432"></alfter>
+	</color>
+	
+</lrclist>

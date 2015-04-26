@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9A3B8CEB-F3ED-4D5A-802F-6284ED13F842}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>XiMusic</RootNamespace>
+    <AssemblyName>XiMusic</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Interop.Shell32, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+      <HintPath>bin\Debug\Interop.Shell32.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:\Users\Administrator\Desktop\Jade.WebMusicBox\Jade.WebMusicBox\Rec\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tags, Version=2.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Tags.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ctlMusicList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ctlMusicList.Designer.cs">
+      <DependentUpon>ctlMusicList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctlSearchBox.cs">
+      <SubType>usercontrol</SubType>
+    </Compile>
+    <Compile Include="ctlSearchBox.Designer.cs">
+      <DependentUpon>ctlSearchBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ctlUserListView.cs">
+      <SubType>component</SubType>
+    </Compile>
+    <Compile Include="ctlUserListView.Designer.cs">
+      <DependentUpon>ctlUserListView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDesktopLyrics.cs">
+      <SubType>form</SubType>
+    </Compile>
+    <Compile Include="frmDesktopLyrics.Designer.cs">
+      <DependentUpon>frmDesktopLyrics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSearchLyrics.cs">
+      <SubType>form</SubType>
+    </Compile>
+    <Compile Include="frmSearchLyrics.Designer.cs">
+      <DependentUpon>frmSearchLyrics.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSearchMusic.cs">
+      <SubType>form</SubType>
+    </Compile>
+    <Compile Include="frmSearchMusic.Designer.cs">
+      <DependentUpon>frmSearchMusic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmXiMusic.cs">
+      <SubType>form</SubType>
+    </Compile>
+    <Compile Include="frmXiMusic.Designer.cs">
+      <DependentUpon>frmXiMusic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HtmlHelper.cs" />
+    <Compile Include="HtmlHelperEncode.cs" />
+    <Compile Include="IniFiles.cs" />
+    <Compile Include="LoadingpicArtist.cs" />
+    <Compile Include="LyricsHelper.cs" />
+    <Compile Include="LyricsInfo.cs" />
+    <Compile Include="LyricsRegex.cs" />
+    <Compile Include="MultiWindows.cs" />
+    <Compile Include="MusicData.cs" />
+    <Compile Include="MusicInfo1.cs" />
+    <Compile Include="MusicInfo2.cs" />
+    <Compile Include="MusicTime.cs" />
+    <Compile Include="NatiiveMethod.cs" />
+    <Compile Include="OnlineMusic.cs" />
+    <Compile Include="PlayerType.cs" />
+    <Compile Include="PlayHelper.cs" />
+    <Compile Include="PlayType.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ResolveOnlineMusicList.cs" />
+    <Compile Include="SearchWebMusic.cs" />
+    <Compile Include="SingerInfo.cs" />
+    <Compile Include="Song.cs" />
+    <Compile Include="userctlMusicList\PlayEventArgs.cs" />
+    <Compile Include="XmlHelper.cs" />
+    <EmbeddedResource Include="ctlMusicList.resx">
+      <DependentUpon>ctlMusicList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ctlSearchBox.resx">
+      <DependentUpon>ctlSearchBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDesktopLyrics.resx">
+      <DependentUpon>frmDesktopLyrics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSearchLyrics.resx">
+      <DependentUpon>frmSearchLyrics.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSearchMusic.resx">
+      <DependentUpon>frmSearchMusic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmXiMusic.resx">
+      <DependentUpon>frmXiMusic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\default_album.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_close_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_close_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_mini_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_mini_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\del.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prev.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\serach.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainRMenuSkinIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayListMenuAddIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_btn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\QQ截图20141202143333.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayListMenuAddIcon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainRMenuExitIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\next_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pause_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prev_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shouhover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\soundhover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sound1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AlbumSelectBg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skin_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skin_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skin_click.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mini_click.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mini_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mini_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_click.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_click.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_highlisht.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\offline.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\online.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_click.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\online_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_click.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PlayListListenIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear_click.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\choice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\topic.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\frmSearchTipsBK.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OnLeftArea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OnRightArea.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\album_normal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ctlroll_click.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ctlroll_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ctlroll_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\defalut_artist.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\defalut_artist1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lyrics_click.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lyrics_highlisht.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lyrics_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchwnd_click.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchwnd_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchwnd_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\local_list.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fmlist.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skin_chose.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_skin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thumbnail.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thumbnail1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thumbnail2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thumbnail3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Thumbnail4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\defalut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\501661680ae3f.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\local_artist.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20110823125035608.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skin_in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\skin_on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\llrclock_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lrclock_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lrcunlock_highlight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lrcunlock_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\night.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
